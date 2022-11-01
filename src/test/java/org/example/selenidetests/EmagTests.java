@@ -43,6 +43,7 @@ public class EmagTests extends BaseTest{
         loginPage.negativeUsernameInput();
         CreateAccountPage createAccountPage = loginPage.clickContinueButton();
 
+        // Test result may vary based on eMags' "Not a robot" verification
                 Assert.assertEquals(createAccountPage.NO_ACCOUNT_MESSAGE.getText(),
                 "\n" + "            Se pare că nu ai un cont eMAG." +
                 " Hai să iți creăm un cont nou!\n" +
