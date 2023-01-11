@@ -21,7 +21,6 @@ public class LoginPage extends BasePage{
     }
 
     public String randomName() {
-        String randomName = String.valueOf(new Randomizer());
-        return randomName;
+        return String.valueOf(new Randomizer());
     }
 }

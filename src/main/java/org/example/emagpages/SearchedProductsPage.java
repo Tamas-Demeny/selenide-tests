@@ -1,10 +1,6 @@
 package org.example.emagpages;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-
-import static com.codeborne.selenide.Condition.appear;
-import static com.codeborne.selenide.Selenide.$;
 
 public class SearchedProductsPage extends BasePage{
 
